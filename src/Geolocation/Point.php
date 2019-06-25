@@ -12,4 +12,14 @@ class Point
         $this->x = $x;
         $this->y = $y;
     }
+
+    public function getX(): float
+    {
+        return $this->x;
+    }
+
+    public function getY(): float
+    {
+        return $this->y;
+    }
 }

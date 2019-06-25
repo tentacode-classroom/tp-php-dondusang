@@ -33,6 +33,9 @@ Resources :
 * [Documentation de l'API adresse.data.gouv.fr](https://adresse.data.gouv.fr/api)
 * [Documentation de l'API don du sang](https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/)
 * [API des points de don du sang du jour](http://api.openeventdatabase.org/event/?what=health.blood.collect&when=today&limit=500)
+* [file_get_contents](https://www.php.net/manual/fr/function.file-get-contents.php) récupérer le contenu d'une page web (ou utilisez `guzzlehttp/guzzle`).
+* [json_decode](https://www.php.net/manual/fr/function.json-decode.php) : transformer une chaine JSON en objet PHP ou tableau php (deuxième argument à true).
+* [calcul de distance en km entre deux points](http://mwlandry.ca/famille/etudes/calcul_distance.htm)
 
 ## Annexe
 
@@ -61,5 +64,5 @@ php bin/phpcbf
 Analyse statique (prévention des bugs) :
 
 ```bash
-php bin/phpstan analyse src --level=max
+bin/phpstan analyse src --level=max
 ```
